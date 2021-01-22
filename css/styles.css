@@ -225,11 +225,29 @@ td {
 }
 
 
-
+@media (max-width: 470px) {
+  .header-logo {
+    max-width: 150px;
+  }
+}
 @media (max-width:900px) {
+
+  .container-header {
+    padding: 5%;
+  }
+
+  .cta-title {
+    font-size: 1.5rem;
+  }
+
+  .header-button {
+    padding: 2% 5%;
+  }
+
+
+
   .flex-wrapper {
     flex-direction: column;
-
   }
 
   .hero-description {
@@ -239,6 +257,8 @@ td {
     align-items: center;
     margin:  35px auto ;
   }
+
+  .feature-wrapper {margin: auto 5%;}
 
   .first-feature.flex-wrapper , .second-feature.flex-wrapper ,.third-feature.flex-wrapper {
     flex-direction: column-reverse;
@@ -254,15 +274,27 @@ td {
 
   .cta-wrapper {
     width: auto;
-    margin: auto 50px;
+    margin: auto 5%;
+  }
+
+  .footer-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    align-items: center;
   }
 
   .footer-flex-container {
     flex-direction: column;
+    align-items: center;
   }
 
   .links {
     margin-top: 20px
+  }
+
+  .company-info {
+    max-width: 100%;
   }
 
   .company-socials {
