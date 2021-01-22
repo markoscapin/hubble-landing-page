@@ -37,6 +37,12 @@ body {
   background-color: hsl(193, 100%, 96%);
 }
 
+.cta-button {
+  background-color: hsl(322, 100%, 66%);
+  color: #FFF;
+  margin-top: 20px;
+}
+
 .menu-header-container {
   display: flex;
   width: 100%;
@@ -49,30 +55,74 @@ body {
   background-color: #FFF;
 }
 
-.cta-button {
-  background-color: hsl(322, 100%, 66%);
-  color: #FFF;
-  margin-top: 20px;
-}
-
 .flex-wrapper {
   display: flex;
   flex-direction: row;
 }
 
-.header-description {
+.hero-description {
   width: 50%;
   margin-right: 100px;
 }
 
-.header-img {
+.hero-img {
   width: 100%;
+}
+
+.sub-title {
+  font-size: 0.95rem;
 }
 
 .title {
   font-size: 2.5rem;
 }
 
-.sub-title {
-  font-size: 0.95rem;
+/* FEATURES SECTION */
+.feature-description {
+  width: 50%;
+  color: hsl(192, 100%, 9%);
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 100px;
+}
+
+.feature-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.feature-sub-title {
+  font-size: 0.95rem
+}
+
+.feature-img {
+  width: 100%;
+  font-weight: 400;
+}
+
+.feature-img-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.second-feature .feature-description {
+  margin-right: 0;
+  margin-left: 100px;
+}
+
+.flex-wrapper.second-feature {
+  flex-direction: row-reverse;
+}
+
+.feature-wrapper .flex-wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  border-radius: 20px;
+  padding: 0 15px;
+  align-items: center;
+  padding: 50px;
+}
+
+.feature-wrapper {
+  margin: 70px 50px 20px 50px;
 }
