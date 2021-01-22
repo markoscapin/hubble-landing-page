@@ -307,5 +307,9 @@ td {
     text-align: center;
   }
 
+  .feature-img-container{
+    width: 100%;
+  }
+
 
 }
