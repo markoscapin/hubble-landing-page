@@ -86,12 +86,13 @@ body {
 }
 
 .feature-title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
 .feature-sub-title {
-  font-size: 0.95rem
+  font-size: 0.95rem;
+  color:hsl(208, 11%, 55%);
 }
 
 .feature-img {
@@ -125,4 +126,23 @@ body {
 
 .feature-wrapper {
   margin: 70px 50px 20px 50px;
+}
+
+/* CTA SECTION */
+.cta-wrapper {
+  width: 60%;
+  margin: 100px auto;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 35px 0 40px 0;
+  color: hsl(192, 100%, 9%);
+  position: relative;
+  top: 100px;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  margin: 0;
 }
