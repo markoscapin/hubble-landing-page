@@ -264,6 +264,8 @@ td {
     flex-direction: column-reverse;
     text-align: center;
     margin: 35px auto;
+    align-items: normal;
+    
   }
 
   .feature-description {
