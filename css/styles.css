@@ -4,6 +4,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+td {
+  vertical-align: top;
+}
+
 /* Standard Buttons Layout */
 .btn {
   border-radius: 50px;
@@ -43,6 +47,12 @@ body {
   margin-top: 20px;
 }
 
+.cta-button:hover {
+  color: hsl(322, 100%, 66%);
+  background-color: #FFF;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
 .menu-header-container {
   display: flex;
   width: 100%;
@@ -53,6 +63,11 @@ body {
 .header-button {
   color: hsl(192, 100%, 9%);
   background-color: #FFF;
+}
+
+.header-button:hover {
+  color: #FFF;
+  background: hsl(322, 100%, 66%);
 }
 
 .flex-wrapper {
@@ -92,7 +107,7 @@ body {
 
 .feature-sub-title {
   font-size: 0.95rem;
-  color:hsl(208, 11%, 55%);
+  color: hsl(208, 11%, 55%);
 }
 
 .feature-img {
@@ -131,7 +146,7 @@ body {
 /* CTA SECTION */
 .cta-wrapper {
   width: 60%;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
   text-align: center;
   align-items: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -140,9 +155,124 @@ body {
   color: hsl(192, 100%, 9%);
   position: relative;
   top: 100px;
+  background-color: #FFF;
 }
 
 .cta-title {
   font-size: 2.5rem;
   margin: 0;
+}
+
+/* FOOTER SECTION */
+.footer-wrapper {
+  background-color: hsl(192, 100%, 9%);
+  padding: 200px 50px 50px 50px;
+  color: #FFF;
+}
+
+.footer-icon {
+  height: 100%;
+  width: auto;
+}
+
+.footer-wrapper p {
+  margin: 0
+}
+
+.footer-flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+.logo {
+  margin: 25px 0;
+}
+
+.links {
+  color: #FFF;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.links:hover {
+  opacity: 1;
+}
+
+.company-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.social-icon {
+  color: #FFF;
+}
+
+.social-icon:hover {
+  color: hsl(322, 100%, 66%);
+}
+
+.copyright {
+  text-align: right;
+}
+
+
+
+@media (max-width:900px) {
+  .flex-wrapper {
+    flex-direction: column;
+
+  }
+
+  .hero-description {
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:  35px auto ;
+  }
+
+  .first-feature.flex-wrapper , .second-feature.flex-wrapper ,.third-feature.flex-wrapper {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin: 35px auto;
+  }
+
+  .feature-description {
+    width: 100%!important;
+    margin: 0!important;
+  }
+
+
+  .cta-wrapper {
+    width: auto;
+    margin: auto 50px;
+  }
+
+  .footer-flex-container {
+    flex-direction: column;
+  }
+
+  .links {
+    margin-top: 20px
+  }
+
+  .company-socials {
+    width: 100%;
+    justify-content: center;
+    margin: 25px auto;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+
 }
