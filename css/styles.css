@@ -225,12 +225,12 @@ td {
 }
 
 
-@media (max-width: 470px) {
+@media screen and (max-width: 470px) {
   .header-logo {
     max-width: 150px;
   }
 }
-@media (max-width:900px) {
+@media screen and (max-width:900px) {
 
   .container-header {
     padding: 5%;
