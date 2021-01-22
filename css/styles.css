@@ -1,0 +1,78 @@
+body {
+  font-size: 1.125em;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Standard Buttons Layout */
+.btn {
+  border-radius: 50px;
+  padding: 10px 50px;
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* HEADER SECTION */
+/* container-header */
+.container-header {
+  background-image: url(../images/bg-hero-desktop.svg);
+  width: auto;
+  height: 100%;
+  background-size: cover;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+  background-color: hsl(193, 100%, 96%);
+}
+
+.menu-header-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header-button {
+  color: hsl(192, 100%, 9%);
+  background-color: #FFF;
+}
+
+.cta-button {
+  background-color: hsl(322, 100%, 66%);
+  color: #FFF;
+  margin-top: 20px;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-description {
+  width: 50%;
+  margin-right: 100px;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+.sub-title {
+  font-size: 0.95rem;
+}
