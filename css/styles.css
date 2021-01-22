@@ -213,6 +213,7 @@ td {
 
 .social-icon {
   color: #FFF;
+  max-height: 20px;
 }
 
 .social-icon:hover {
