@@ -265,7 +265,7 @@ td {
     text-align: center;
     margin: 35px auto;
     align-items: normal;
-    
+
   }
 
   .feature-description {
@@ -297,6 +297,7 @@ td {
 
   .company-info {
     max-width: 100%;
+    text-align: start;
   }
 
   .company-socials {
@@ -311,7 +312,14 @@ td {
 
   .feature-img-container{
     width: 100%;
+    flex-direction: column;
   }
+
+  .social-icon {
+    margin: auto 15px;
+  }
+
+
 
 
 }
